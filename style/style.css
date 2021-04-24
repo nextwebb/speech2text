@@ -1,0 +1,99 @@
+/* CSS comes here */
+body {
+    font-family: arial;
+}
+button {
+    padding:10px;
+    background-color:#6a67ce;
+    color: #FFFFFF;
+    border: 0px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+#output {
+    background-color:#F9F9F9;
+    padding:10px;
+    width: 100%;
+    margin-top:20px;
+    line-height:30px;
+}
+.hide {
+    display:none;
+}
+.show {
+    display:block;
+}
+.pulse-ring {
+    content: '';
+    width: 100px;
+    height: 100px;
+      background: #189BFF;
+    border: 5px solid #189BFF;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    animation: pulsate infinite 1.5s;
+  }
+
+  body {
+    margin: 0;
+    font-size: 18.75px;
+  }
+  
+  #speech.btn {
+    border: none;
+    padding: 0;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    background: #ff3d7f;
+    position: relative;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+  }
+  
+  .pulse-ring {
+    content: "";
+    width: 150px;
+    height: 150px;
+    border: 5px solid #ff3d7f;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    animation: pulsate infinite 2s;
+  }
+  
+  @-webkit-keyframes pulsate {
+    0% {
+      -webkit-transform: scale(1, 1);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1.2, 1.2);
+      opacity: 0;
+    }
+  }
+  .container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3fb8af;
+  }

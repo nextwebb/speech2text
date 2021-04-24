@@ -1,0 +1,28 @@
+<!doctype html>
+	<head>
+		<link rel="stylesheet" href="./style/style.css">
+		<title>JavaScript Speech to Text</title>
+	</head>
+	<body>
+		<h2>Voice note app</h2>
+        <p>Click on the below button and speak something...</p>
+		<i>...this feature is supported by only chrome and mozilla browsers</i>
+        <p>
+
+		<button type="button" onclick="runSpeechRecognition()">
+					Speech to Text
+		</button> &nbsp; 
+		<span id="action"></span>
+
+		</p>
+        <div id="output" class="hide"></div>
+
+		<div class="container">
+		<button id="speech" class="btn">
+		<i class="fa fa-microphone" aria-hidden="true"></i>
+		<div class="pulse-ring"></div>
+		</div>
+  
+		<script type="text/javascript" src="./js/main.js"></script>
+	</body>
+</html>
